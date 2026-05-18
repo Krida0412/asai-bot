@@ -1,0 +1,16 @@
+
+> better-chatbot@1.26.0 dev F:\better-chatbot-main\better-chatbot-main
+> next dev "-p" "3001"
+
+▲ Next.js 16.1.6 (Turbopack)
+- Local:         http://localhost:3001
+- Network:       http://192.168.100.19:3001
+- Environments: .env
+- Experiments (use with caution):
+  ✓ authInterrupts
+  ✓ taint
+
+✓ Starting...
+  Suggestion: If you intended to restart next dev, terminate the other process, and then try again.
+[?25h
+ ELIFECYCLE  Command failed with exit code 1.

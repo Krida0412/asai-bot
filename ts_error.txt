@@ -1,0 +1,3 @@
+src/app/api/storage/file/route.ts(19,29): error TS2345: Argument of type 'Buffer<ArrayBufferLike>' is not assignable to parameter of type 'BodyInit | null | undefined'.
+  Type 'Buffer<ArrayBufferLike>' is missing the following properties from type 'URLSearchParams': size, append, delete, get, and 2 more.
+src/lib/file-storage/local-file-storage.ts(6,1): error TS6133: 'logger' is declared but its value is never read.

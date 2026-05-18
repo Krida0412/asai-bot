@@ -1,0 +1,1243 @@
+[createAgenTeamTask] 345f1428-9fc8-4a08-9df8-caf0bc378534 inngest unavailable, falling back to local runner
+[createAgenTeamTask] 2e3d1e13-02c3-4430-bee0-ad63b2ee6031 inngest unavailable, falling back to local runner
+[createAgenTeamTask] b5b9bcd1-eb9e-437a-9708-6cb01701d618 inngest unavailable, falling back to local runner
+TypeError: Invalid state: Controller is already closed
+    at Timeout.poll [as _onTimeout] (src\app\api\agen-team\stream\route.ts:169:24)
+  167 |           if (!isDone) {
+  168 |             // Send keepalive
+> 169 |             controller.enqueue(encoder.encode(": keepalive\n\n"));
+      |                        ^
+  170 |             setTimeout(poll, pollInterval);
+  171 |           } else {
+  172 |             controller.close(); {
+  code: 'ERR_INVALID_STATE'
+}
+⨯ unhandledRejection: TypeError: Invalid state: Controller is already closed
+    at Timeout.poll [as _onTimeout] (src\app\api\agen-team\stream\route.ts:169:24)
+  167 |           if (!isDone) {
+  168 |             // Send keepalive
+> 169 |             controller.enqueue(encoder.encode(": keepalive\n\n"));
+      |                        ^
+  170 |             setTimeout(poll, pollInterval);
+  171 |           } else {
+  172 |             controller.close(); {
+  code: 'ERR_INVALID_STATE'
+}
+⨯ unhandledRejection:  TypeError: Invalid state: Controller is already closed
+    at Timeout.poll [as _onTimeout] (src\app\api\agen-team\stream\route.ts:169:24)
+  167 |           if (!isDone) {
+  168 |             // Send keepalive
+> 169 |             controller.enqueue(encoder.encode(": keepalive\n\n"));
+      |                        ^
+  170 |             setTimeout(poll, pollInterval);
+  171 |           } else {
+  172 |             controller.close(); {
+  code: 'ERR_INVALID_STATE'
+}
+[createAgenTeamTask] a57392d3-6372-4374-93c4-06db4a2a5d07 inngest unavailable, falling back to local runner
+⨯ Error: aborted
+    at ignore-listed frames {
+  code: 'ECONNRESET'
+}
+[createAgenTeamTask] 33bf17a5-e233-47f2-b93b-a855d4bd0795 inngest unavailable, falling back to local runner
+SSE poll error: TypeError: Invalid state: Controller is already closed
+    at Timeout.poll [as _onTimeout] (src\app\api\agen-team\stream\route.ts:123:28)
+  121 |               const content = row.content as Record<string, unknown>;
+  122 |               if (content && typeof content === "object" && "type" in content) {
+> 123 |                 controller.enqueue(
+      |                            ^
+  124 |                   encoder.encode(`data: ${JSON.stringify(content)}\n\n`),
+  125 |                 );
+  126 | {
+  code: 'ERR_INVALID_STATE'
+}
+TypeError: Invalid state: Controller is already closed
+    at Timeout.poll [as _onTimeout] (src\app\api\agen-team\stream\route.ts:169:24)
+  167 |           if (!isDone) {
+  168 |             // Send keepalive
+> 169 |             controller.enqueue(encoder.encode(": keepalive\n\n"));
+      |                        ^
+  170 |             setTimeout(poll, pollInterval);
+  171 |           } else {
+  172 |             controller.close(); {
+  code: 'ERR_INVALID_STATE'
+}
+⨯ unhandledRejection: TypeError: Invalid state: Controller is already closed
+    at Timeout.poll [as _onTimeout] (src\app\api\agen-team\stream\route.ts:169:24)
+  167 |           if (!isDone) {
+  168 |             // Send keepalive
+> 169 |             controller.enqueue(encoder.encode(": keepalive\n\n"));
+      |                        ^
+  170 |             setTimeout(poll, pollInterval);
+  171 |           } else {
+  172 |             controller.close(); {
+  code: 'ERR_INVALID_STATE'
+}
+⨯ unhandledRejection:  TypeError: Invalid state: Controller is already closed
+    at Timeout.poll [as _onTimeout] (src\app\api\agen-team\stream\route.ts:169:24)
+  167 |           if (!isDone) {
+  168 |             // Send keepalive
+> 169 |             controller.enqueue(encoder.encode(": keepalive\n\n"));
+      |                        ^
+  170 |             setTimeout(poll, pollInterval);
+  171 |           } else {
+  172 |             controller.close(); {
+  code: 'ERR_INVALID_STATE'
+}
+[createAgenTeamTask] c08f22cc-3659-44dd-ba97-0e156293862d inngest unavailable, falling back to local runner
+⨯ Error: aborted
+    at ignore-listed frames {
+  code: 'ECONNRESET'
+}
+[createAgenTeamTask] 4e1a0e4b-7855-472d-a38b-2b83a825ce76 inngest unavailable, falling back to local runner
+[createAgenTeamTask] 2c0ae052-bfc5-4954-8b71-ded6807429b1 inngest unavailable, falling back to local runner
+TypeError: Invalid state: Controller is already closed
+    at Timeout.poll [as _onTimeout] (src\app\api\agen-team\stream\route.ts:169:24)
+  167 |           if (!isDone) {
+  168 |             // Send keepalive
+> 169 |             controller.enqueue(encoder.encode(": keepalive\n\n"));
+      |                        ^
+  170 |             setTimeout(poll, pollInterval);
+  171 |           } else {
+  172 |             controller.close(); {
+  code: 'ERR_INVALID_STATE'
+}
+⨯ unhandledRejection: TypeError: Invalid state: Controller is already closed
+    at Timeout.poll [as _onTimeout] (src\app\api\agen-team\stream\route.ts:169:24)
+  167 |           if (!isDone) {
+  168 |             // Send keepalive
+> 169 |             controller.enqueue(encoder.encode(": keepalive\n\n"));
+      |                        ^
+  170 |             setTimeout(poll, pollInterval);
+  171 |           } else {
+  172 |             controller.close(); {
+  code: 'ERR_INVALID_STATE'
+}
+⨯ unhandledRejection:  TypeError: Invalid state: Controller is already closed
+    at Timeout.poll [as _onTimeout] (src\app\api\agen-team\stream\route.ts:169:24)
+  167 |           if (!isDone) {
+  168 |             // Send keepalive
+> 169 |             controller.enqueue(encoder.encode(": keepalive\n\n"));
+      |                        ^
+  170 |             setTimeout(poll, pollInterval);
+  171 |           } else {
+  172 |             controller.close(); {
+  code: 'ERR_INVALID_STATE'
+}
+[createAgenTeamTask] 936242f3-564a-4409-994b-e26649b67fb5 inngest unavailable, falling back to local runner
+[createAgenTeamTask] 780a4026-914c-4181-92f4-1697140d96fa inngest unavailable, falling back to local runner
+[createAgenTeamTask] 7f3c04d0-2dbb-4771-938c-24d8df794087 inngest unavailable, falling back to local runner
+SSE poll error: TypeError: Invalid state: Controller is already closed
+    at Timeout.poll [as _onTimeout] (src\app\api\agen-team\stream\route.ts:123:28)
+  121 |               const content = row.content as Record<string, unknown>;
+  122 |               if (content && typeof content === "object" && "type" in content) {
+> 123 |                 controller.enqueue(
+      |                            ^
+  124 |                   encoder.encode(`data: ${JSON.stringify(content)}\n\n`),
+  125 |                 );
+  126 | {
+  code: 'ERR_INVALID_STATE'
+}
+TypeError: Invalid state: Controller is already closed
+    at Timeout.poll [as _onTimeout] (src\app\api\agen-team\stream\route.ts:169:24)
+  167 |           if (!isDone) {
+  168 |             // Send keepalive
+> 169 |             controller.enqueue(encoder.encode(": keepalive\n\n"));
+      |                        ^
+  170 |             setTimeout(poll, pollInterval);
+  171 |           } else {
+  172 |             controller.close(); {
+  code: 'ERR_INVALID_STATE'
+}
+⨯ unhandledRejection: TypeError: Invalid state: Controller is already closed
+    at Timeout.poll [as _onTimeout] (src\app\api\agen-team\stream\route.ts:169:24)
+  167 |           if (!isDone) {
+  168 |             // Send keepalive
+> 169 |             controller.enqueue(encoder.encode(": keepalive\n\n"));
+      |                        ^
+  170 |             setTimeout(poll, pollInterval);
+  171 |           } else {
+  172 |             controller.close(); {
+  code: 'ERR_INVALID_STATE'
+}
+⨯ unhandledRejection:  TypeError: Invalid state: Controller is already closed
+    at Timeout.poll [as _onTimeout] (src\app\api\agen-team\stream\route.ts:169:24)
+  167 |           if (!isDone) {
+  168 |             // Send keepalive
+> 169 |             controller.enqueue(encoder.encode(": keepalive\n\n"));
+      |                        ^
+  170 |             setTimeout(poll, pollInterval);
+  171 |           } else {
+  172 |             controller.close(); {
+  code: 'ERR_INVALID_STATE'
+}
+Error [AI_RetryError]: Failed after 3 attempts. Last error: Rate limit exceeded
+    at ignore-listed frames {
+  cause: undefined,
+  reason: 'maxRetriesExceeded',
+  errors: [Array],
+  lastError: Error [AI_APICallError]: Rate limit exceeded
+      at ignore-listed frames {
+    cause: undefined,
+    url: 'https://api.mistral.ai/v1/chat/completions',
+    requestBodyValues: {
+      model: 'mistral-large-latest',
+      safe_prompt: undefined,
+      max_tokens: undefined,
+      temperature: undefined,
+      top_p: undefined,
+      random_seed: undefined,
+      response_format: undefined,
+      document_image_limit: undefined,
+      document_page_limit: undefined,
+      messages: [Array],
+      tools: [Array],
+      tool_choice: 'auto',
+      stream: true
+    },
+    statusCode: 429,
+    responseHeaders: {
+      'access-control-allow-origin': '*',
+      'alt-svc': 'h3=":443"; ma=86400',
+      'cf-cache-status': 'DYNAMIC',
+      'cf-ray': '9fb2258678714573-CGK',
+      connection: 'keep-alive',
+      'content-length': '121',
+      'content-type': 'application/json',
+      date: 'Wed, 13 May 2026 13:52:57 GMT',
+      'mistral-correlation-id': '019e219c-b070-7527-9d0c-88bd7201bb22',
+      server: 'cloudflare',
+      'set-cookie': '_cfuvid=0zNkhzPPw4JtC9hqUg6fINm2PbOabtmkCxgHSFow2RM-1778680377.3508542-1.0.1.1-8l1LiPeeZ6XXjIJYvcj3wV5Lr.G8Lm6dEMfWyxGZ4jk; HttpOnly; SameSite=None; Secure; Path=/; Domain=mistral.ai',
+      'strict-transport-security': 'max-age=15552000; includeSubDomains; preload',
+      'x-content-type-options': 'nosniff',
+      'x-envoy-upstream-service-time': '8',
+      'x-kong-proxy-latency': '24',
+      'x-kong-request-id': '019e219c-b070-7527-9d0c-88bd7201bb22',
+      'x-kong-upstream-latency': '9',
+      'x-ratelimit-limit-req-minute': '4',
+      'x-ratelimit-remaining-req-minute': '0'
+    },
+    responseBody: '{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}',
+    isRetryable: true,
+    data: {
+      object: 'error',
+      message: 'Rate limit exceeded',
+      type: 'rate_limited',
+      param: null,
+      code: '1300'
+    }
+  }
+}
+Error [AI_RetryError]: Failed after 3 attempts. Last error: Rate limit exceeded
+    at ignore-listed frames {
+  cause: undefined,
+  reason: 'maxRetriesExceeded',
+  errors: [Array],
+  lastError: Error [AI_APICallError]: Rate limit exceeded
+      at ignore-listed frames {
+    cause: undefined,
+    url: 'https://api.mistral.ai/v1/chat/completions',
+    requestBodyValues: {
+      model: 'mistral-large-latest',
+      safe_prompt: undefined,
+      max_tokens: undefined,
+      temperature: undefined,
+      top_p: undefined,
+      random_seed: undefined,
+      response_format: undefined,
+      document_image_limit: undefined,
+      document_page_limit: undefined,
+      messages: [Array],
+      tools: [Array],
+      tool_choice: 'auto',
+      stream: true
+    },
+    statusCode: 429,
+    responseHeaders: {
+      'access-control-allow-origin': '*',
+      'alt-svc': 'h3=":443"; ma=86400',
+      'cf-cache-status': 'DYNAMIC',
+      'cf-ray': '9fb225d638bf490a-CGK',
+      connection: 'keep-alive',
+      'content-length': '121',
+      'content-type': 'application/json',
+      date: 'Wed, 13 May 2026 13:53:10 GMT',
+      'mistral-correlation-id': '019e219c-e254-772a-ba0a-0c430b08ca50',
+      server: 'cloudflare',
+      'set-cookie': '_cfuvid=j9YtuBrUYuW8lOgZsDS66cbDrFcQ1aKRaLJ2Cpi_9_I-1778680390.119238-1.0.1.1-wIRPVW9xSV4OQHeEo.z48GUjhVZfrMlxHR6jTKRWdG0; HttpOnly; SameSite=None; Secure; Path=/; Domain=mistral.ai',
+      'strict-transport-security': 'max-age=15552000; includeSubDomains; preload',
+      'x-content-type-options': 'nosniff',
+      'x-envoy-upstream-service-time': '10',
+      'x-kong-proxy-latency': '17',
+      'x-kong-request-id': '019e219c-e254-772a-ba0a-0c430b08ca50',
+      'x-kong-upstream-latency': '11',
+      'x-ratelimit-limit-req-minute': '4',
+      'x-ratelimit-remaining-req-minute': '0'
+    },
+    responseBody: '{"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}',
+    isRetryable: true,
+    data: {
+      object: 'error',
+      message: 'Rate limit exceeded',
+      type: 'rate_limited',
+      param: null,
+      code: '1300'
+    }
+  }
+}
+[createAgenTeamTask] 7bf06525-2767-47fc-858d-5ac87aaa3e34 inngest unavailable, falling back to local runner
+SSE poll error: TypeError: Invalid state: Controller is already closed
+    at Timeout.poll [as _onTimeout] (src\app\api\agen-team\stream\route.ts:123:28)
+  121 |               const content = row.content as Record<string, unknown>;
+  122 |               if (content && typeof content === "object" && "type" in content) {
+> 123 |                 controller.enqueue(
+      |                            ^
+  124 |                   encoder.encode(`data: ${JSON.stringify(content)}\n\n`),
+  125 |                 );
+  126 | {
+  code: 'ERR_INVALID_STATE'
+}
+TypeError: Invalid state: Controller is already closed
+    at Timeout.poll [as _onTimeout] (src\app\api\agen-team\stream\route.ts:169:24)
+  167 |           if (!isDone) {
+  168 |             // Send keepalive
+> 169 |             controller.enqueue(encoder.encode(": keepalive\n\n"));
+      |                        ^
+  170 |             setTimeout(poll, pollInterval);
+  171 |           } else {
+  172 |             controller.close(); {
+  code: 'ERR_INVALID_STATE'
+}
+⨯ unhandledRejection: TypeError: Invalid state: Controller is already closed
+    at Timeout.poll [as _onTimeout] (src\app\api\agen-team\stream\route.ts:169:24)
+  167 |           if (!isDone) {
+  168 |             // Send keepalive
+> 169 |             controller.enqueue(encoder.encode(": keepalive\n\n"));
+      |                        ^
+  170 |             setTimeout(poll, pollInterval);
+  171 |           } else {
+  172 |             controller.close(); {
+  code: 'ERR_INVALID_STATE'
+}
+⨯ unhandledRejection:  TypeError: Invalid state: Controller is already closed
+    at Timeout.poll [as _onTimeout] (src\app\api\agen-team\stream\route.ts:169:24)
+  167 |           if (!isDone) {
+  168 |             // Send keepalive
+> 169 |             controller.enqueue(encoder.encode(": keepalive\n\n"));
+      |                        ^
+  170 |             setTimeout(poll, pollInterval);
+  171 |           } else {
+  172 |             controller.close(); {
+  code: 'ERR_INVALID_STATE'
+}
+[createAgenTeamTask] 660308ac-fb9b-4c0f-93ef-7704a2837cd7 inngest unavailable, falling back to local runner
+SSE poll error: TypeError: Invalid state: Controller is already closed
+    at Timeout.poll [as _onTimeout] (src\app\api\agen-team\stream\route.ts:123:28)
+  121 |               const content = row.content as Record<string, unknown>;
+  122 |               if (content && typeof content === "object" && "type" in content) {
+> 123 |                 controller.enqueue(
+      |                            ^
+  124 |                   encoder.encode(`data: ${JSON.stringify(content)}\n\n`),
+  125 |                 );
+  126 | {
+  code: 'ERR_INVALID_STATE'
+}
+TypeError: Invalid state: Controller is already closed
+    at Timeout.poll [as _onTimeout] (src\app\api\agen-team\stream\route.ts:169:24)
+  167 |           if (!isDone) {
+  168 |             // Send keepalive
+> 169 |             controller.enqueue(encoder.encode(": keepalive\n\n"));
+      |                        ^
+  170 |             setTimeout(poll, pollInterval);
+  171 |           } else {
+  172 |             controller.close(); {
+  code: 'ERR_INVALID_STATE'
+}
+⨯ unhandledRejection: TypeError: Invalid state: Controller is already closed
+    at Timeout.poll [as _onTimeout] (src\app\api\agen-team\stream\route.ts:169:24)
+  167 |           if (!isDone) {
+  168 |             // Send keepalive
+> 169 |             controller.enqueue(encoder.encode(": keepalive\n\n"));
+      |                        ^
+  170 |             setTimeout(poll, pollInterval);
+  171 |           } else {
+  172 |             controller.close(); {
+  code: 'ERR_INVALID_STATE'
+}
+⨯ unhandledRejection:  TypeError: Invalid state: Controller is already closed
+    at Timeout.poll [as _onTimeout] (src\app\api\agen-team\stream\route.ts:169:24)
+  167 |           if (!isDone) {
+  168 |             // Send keepalive
+> 169 |             controller.enqueue(encoder.encode(": keepalive\n\n"));
+      |                        ^
+  170 |             setTimeout(poll, pollInterval);
+  171 |           } else {
+  172 |             controller.close(); {
+  code: 'ERR_INVALID_STATE'
+}
+[createAgenTeamTask] 8973ed52-c843-4014-acc3-b20110c80271 inngest unavailable, falling back to local runner
+⨯ Error: aborted
+    at ignore-listed frames {
+  code: 'ECONNRESET'
+}
+[createAgenTeamTask] failed {
+  traceId: 'ef942c67-33e5-46e2-96fc-a0c27675c1c8',
+  stage: 'insert_task_db',
+  input: {
+    intentType: 'research_only',
+    topic: 'riset tren AI 2026',
+    brief: 'Bantu riset tren AI 2026',
+    maxSources: 8,
+    needsPhoto: false
+  },
+  mappedPayload: {
+    task_id: '61a70203-5722-4fc6-aecb-de7713929199',
+    intent_type: 'research_only',
+    topic: 'riset tren AI 2026',
+    special_focus: 'Bantu riset tren AI 2026',
+    max_total_tokens: 12000,
+    max_budget_usd: 0.35,
+    max_sources: 8,
+    photo_requirements: { needs_photo: false },
+    platform: undefined,
+    output_format: undefined,
+    requirements: []
+  },
+  normalizedPayload: {
+    task_id: '61a70203-5722-4fc6-aecb-de7713929199',
+    user_id: '384d8e36-89d4-4cf0-bc24-9dc797674801',
+    intent_type: 'research_only',
+    topic: 'riset tren AI 2026',
+    special_focus: 'Bantu riset tren AI 2026',
+    user_memory_context: undefined,
+    needs_photo: false,
+    photo_query: undefined,
+    max_total_tokens: 12000,
+    max_budget_usd: 0.35,
+    max_sources: 8,
+    is_scheduled: false,
+    scheduled_utc: undefined,
+    platform: undefined,
+    output_format: undefined,
+    requirements: []
+  },
+  errorName: 'Error',
+  errorMessage: 'Too many running tasks. Limit is 2 per user.',
+  stack: 'Error: Too many running tasks. Limit is 2 per user.\n' +
+    '    at createAgenTeamTaskFromChief (F:\\better-chatbot-main\\better-chatbot-main\\.next\\dev\\server\\chunks\\[root-of-the-server]__fc0fc708._.js:7242:19)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at async execute (F:\\better-chatbot-main\\better-chatbot-main\\.next\\dev\\server\\chunks\\[root-of-the-server]__fc0fc708._.js:11866:45)\n' +
+    '    at async F:\\better-chatbot-main\\better-chatbot-main\\.next\\dev\\server\\chunks\\d6b68_ai_dist_index_mjs_50eaf01b._.js:9584:13'
+}
+[createAgenTeamTask] failed {
+  traceId: 'ef942c67-33e5-46e2-96fc-a0c27675c1c8',
+  stage: 'insert_task_db',
+  errorName: 'Error',
+  errorMessage: 'Too many running tasks. Limit is 2 per user.'
+}
+
+[90m[[90mbetter-chatbot[90m][39m [41m[30m ERROR [39m[49m [90mChief Chat API: [39m Failed to create direct task: Too many running tasks. Limit is 2 per user.
+
+    [90mat [39mcreateAgenTeamTaskFromChief ([36m.next\dev\server\chunks\[root-of-the-server]__fc0fc708._.js:7269:15[39m)
+    [90mat [39mprocess.processTicksAndRejections ([36mnode:internal/process/task_queues:105:5[39m)
+    [90mat [39masync execute ([36m.next\dev\server\chunks\[root-of-the-server]__fc0fc708._.js:11866:45[39m)
+    [90mat [39masync .next\dev\server\chunks\d6b68_ai_dist_index_mjs_50eaf01b._.js:9584:13
+
+  [cause]: Too many running tasks. Limit is 2 per user.
+
+      [90mat [39mcreateAgenTeamTaskFromChief ([36m.next\dev\server\chunks\[root-of-the-server]__fc0fc708._.js:7242:19[39m)
+      [90mat [39mprocess.processTicksAndRejections ([36mnode:internal/process/task_queues:105:5[39m)
+      [90mat [39masync execute ([36m.next\dev\server\chunks\[root-of-the-server]__fc0fc708._.js:11866:45[39m)
+      [90mat [39masync .next\dev\server\chunks\d6b68_ai_dist_index_mjs_50eaf01b._.js:9584:13
+
+[createAgenTeamTask] failed {
+  traceId: 'a5dd9db4-87ec-415f-bfed-d48c33f2e9d5',
+  stage: 'insert_task_db',
+  input: {
+    intentType: 'research_only',
+    topic: 'riset tentang startup 2024',
+    brief: 'Bantu riset tentang startup 2024',
+    maxSources: 8,
+    needsPhoto: false
+  },
+  mappedPayload: {
+    task_id: 'b2ab3fc2-a2c5-4b23-aa4c-2d78b5dc8340',
+    intent_type: 'research_only',
+    topic: 'riset tentang startup 2024',
+    special_focus: 'Bantu riset tentang startup 2024',
+    max_total_tokens: 12000,
+    max_budget_usd: 0.35,
+    max_sources: 8,
+    photo_requirements: { needs_photo: false },
+    platform: undefined,
+    output_format: undefined,
+    requirements: []
+  },
+  normalizedPayload: {
+    task_id: 'b2ab3fc2-a2c5-4b23-aa4c-2d78b5dc8340',
+    user_id: '384d8e36-89d4-4cf0-bc24-9dc797674801',
+    intent_type: 'research_only',
+    topic: 'riset tentang startup 2024',
+    special_focus: 'Bantu riset tentang startup 2024',
+    user_memory_context: undefined,
+    needs_photo: false,
+    photo_query: undefined,
+    max_total_tokens: 12000,
+    max_budget_usd: 0.35,
+    max_sources: 8,
+    is_scheduled: false,
+    scheduled_utc: undefined,
+    platform: undefined,
+    output_format: undefined,
+    requirements: []
+  },
+  errorName: 'Error',
+  errorMessage: 'Too many running tasks. Limit is 2 per user.',
+  stack: 'Error: Too many running tasks. Limit is 2 per user.\n' +
+    '    at createAgenTeamTaskFromChief (F:\\better-chatbot-main\\better-chatbot-main\\.next\\dev\\server\\chunks\\[root-of-the-server]__fc0fc708._.js:7242:19)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at async execute (F:\\better-chatbot-main\\better-chatbot-main\\.next\\dev\\server\\chunks\\[root-of-the-server]__fc0fc708._.js:11866:45)\n' +
+    '    at async F:\\better-chatbot-main\\better-chatbot-main\\.next\\dev\\server\\chunks\\d6b68_ai_dist_index_mjs_50eaf01b._.js:9584:13'
+}
+[createAgenTeamTask] failed {
+  traceId: 'a5dd9db4-87ec-415f-bfed-d48c33f2e9d5',
+  stage: 'insert_task_db',
+  errorName: 'Error',
+  errorMessage: 'Too many running tasks. Limit is 2 per user.'
+}
+
+[90m[[90mbetter-chatbot[90m][39m [41m[30m ERROR [39m[49m [90mChief Chat API: [39m Failed to create direct task: Too many running tasks. Limit is 2 per user.
+
+    [90mat [39mcreateAgenTeamTaskFromChief ([36m.next\dev\server\chunks\[root-of-the-server]__fc0fc708._.js:7269:15[39m)
+    [90mat [39mprocess.processTicksAndRejections ([36mnode:internal/process/task_queues:105:5[39m)
+    [90mat [39masync execute ([36m.next\dev\server\chunks\[root-of-the-server]__fc0fc708._.js:11866:45[39m)
+    [90mat [39masync .next\dev\server\chunks\d6b68_ai_dist_index_mjs_50eaf01b._.js:9584:13
+
+  [cause]: Too many running tasks. Limit is 2 per user.
+
+      [90mat [39mcreateAgenTeamTaskFromChief ([36m.next\dev\server\chunks\[root-of-the-server]__fc0fc708._.js:7242:19[39m)
+      [90mat [39mprocess.processTicksAndRejections ([36mnode:internal/process/task_queues:105:5[39m)
+      [90mat [39masync execute ([36m.next\dev\server\chunks\[root-of-the-server]__fc0fc708._.js:11866:45[39m)
+      [90mat [39masync .next\dev\server\chunks\d6b68_ai_dist_index_mjs_50eaf01b._.js:9584:13
+
+[createAgenTeamTask] failed {
+  traceId: '1a1721f3-d52c-4b93-9dc3-8306e7e0e66f',
+  stage: 'insert_task_db',
+  input: {
+    intentType: 'research_only',
+    topic: 'riset tren AI 2026',
+    brief: 'Bantu riset tren AI 2026',
+    maxSources: 8,
+    needsPhoto: false
+  },
+  mappedPayload: {
+    task_id: '4c042472-b641-4c53-9044-e8895b2e5a42',
+    intent_type: 'research_only',
+    topic: 'riset tren AI 2026',
+    special_focus: 'Bantu riset tren AI 2026',
+    max_total_tokens: 12000,
+    max_budget_usd: 0.35,
+    max_sources: 8,
+    photo_requirements: { needs_photo: false },
+    platform: undefined,
+    output_format: undefined,
+    requirements: []
+  },
+  normalizedPayload: {
+    task_id: '4c042472-b641-4c53-9044-e8895b2e5a42',
+    user_id: '384d8e36-89d4-4cf0-bc24-9dc797674801',
+    intent_type: 'research_only',
+    topic: 'riset tren AI 2026',
+    special_focus: 'Bantu riset tren AI 2026',
+    user_memory_context: undefined,
+    needs_photo: false,
+    photo_query: undefined,
+    max_total_tokens: 12000,
+    max_budget_usd: 0.35,
+    max_sources: 8,
+    is_scheduled: false,
+    scheduled_utc: undefined,
+    platform: undefined,
+    output_format: undefined,
+    requirements: []
+  },
+  errorName: 'Error',
+  errorMessage: 'Too many running tasks. Limit is 2 per user.',
+  stack: 'Error: Too many running tasks. Limit is 2 per user.\n' +
+    '    at createAgenTeamTaskFromChief (F:\\better-chatbot-main\\better-chatbot-main\\.next\\dev\\server\\chunks\\[root-of-the-server]__fc0fc708._.js:7242:19)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at async execute (F:\\better-chatbot-main\\better-chatbot-main\\.next\\dev\\server\\chunks\\[root-of-the-server]__fc0fc708._.js:11866:45)\n' +
+    '    at async F:\\better-chatbot-main\\better-chatbot-main\\.next\\dev\\server\\chunks\\d6b68_ai_dist_index_mjs_50eaf01b._.js:9584:13'
+}
+[createAgenTeamTask] failed {
+  traceId: '1a1721f3-d52c-4b93-9dc3-8306e7e0e66f',
+  stage: 'insert_task_db',
+  errorName: 'Error',
+  errorMessage: 'Too many running tasks. Limit is 2 per user.'
+}
+
+[90m[[90mbetter-chatbot[90m][39m [41m[30m ERROR [39m[49m [90mChief Chat API: [39m Failed to create direct task: Too many running tasks. Limit is 2 per user.
+
+    [90mat [39mcreateAgenTeamTaskFromChief ([36m.next\dev\server\chunks\[root-of-the-server]__fc0fc708._.js:7269:15[39m)
+    [90mat [39mprocess.processTicksAndRejections ([36mnode:internal/process/task_queues:105:5[39m)
+    [90mat [39masync execute ([36m.next\dev\server\chunks\[root-of-the-server]__fc0fc708._.js:11866:45[39m)
+    [90mat [39masync .next\dev\server\chunks\d6b68_ai_dist_index_mjs_50eaf01b._.js:9584:13
+
+  [cause]: Too many running tasks. Limit is 2 per user.
+
+      [90mat [39mcreateAgenTeamTaskFromChief ([36m.next\dev\server\chunks\[root-of-the-server]__fc0fc708._.js:7242:19[39m)
+      [90mat [39mprocess.processTicksAndRejections ([36mnode:internal/process/task_queues:105:5[39m)
+      [90mat [39masync execute ([36m.next\dev\server\chunks\[root-of-the-server]__fc0fc708._.js:11866:45[39m)
+      [90mat [39masync .next\dev\server\chunks\d6b68_ai_dist_index_mjs_50eaf01b._.js:9584:13
+
+[createAgenTeamTask] failed {
+  traceId: '1c74f494-79b6-4867-a3ae-03699b7da668',
+  stage: 'insert_task_db',
+  input: {
+    intentType: 'research_only',
+    topic: 'riset tren AI 2026',
+    brief: 'Bantu riset tren AI 2026',
+    maxSources: 8,
+    needsPhoto: false
+  },
+  mappedPayload: {
+    task_id: 'c227ddf6-dc79-4fc3-aeb5-8072f1b78476',
+    intent_type: 'research_only',
+    topic: 'riset tren AI 2026',
+    special_focus: 'Bantu riset tren AI 2026',
+    max_total_tokens: 12000,
+    max_budget_usd: 0.35,
+    max_sources: 8,
+    photo_requirements: { needs_photo: false },
+    platform: undefined,
+    output_format: undefined,
+    requirements: []
+  },
+  normalizedPayload: {
+    task_id: 'c227ddf6-dc79-4fc3-aeb5-8072f1b78476',
+    user_id: '384d8e36-89d4-4cf0-bc24-9dc797674801',
+    intent_type: 'research_only',
+    topic: 'riset tren AI 2026',
+    special_focus: 'Bantu riset tren AI 2026',
+    user_memory_context: undefined,
+    needs_photo: false,
+    photo_query: undefined,
+    max_total_tokens: 12000,
+    max_budget_usd: 0.35,
+    max_sources: 8,
+    is_scheduled: false,
+    scheduled_utc: undefined,
+    platform: undefined,
+    output_format: undefined,
+    requirements: []
+  },
+  errorName: 'Error',
+  errorMessage: 'Too many running tasks. Limit is 2 per user.',
+  stack: 'Error: Too many running tasks. Limit is 2 per user.\n' +
+    '    at createAgenTeamTaskFromChief (F:\\better-chatbot-main\\better-chatbot-main\\.next\\dev\\server\\chunks\\[root-of-the-server]__fc0fc708._.js:7242:19)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at async execute (F:\\better-chatbot-main\\better-chatbot-main\\.next\\dev\\server\\chunks\\[root-of-the-server]__fc0fc708._.js:11866:45)\n' +
+    '    at async F:\\better-chatbot-main\\better-chatbot-main\\.next\\dev\\server\\chunks\\d6b68_ai_dist_index_mjs_50eaf01b._.js:9584:13'
+}
+[createAgenTeamTask] failed {
+  traceId: '1c74f494-79b6-4867-a3ae-03699b7da668',
+  stage: 'insert_task_db',
+  errorName: 'Error',
+  errorMessage: 'Too many running tasks. Limit is 2 per user.'
+}
+
+[90m[[90mbetter-chatbot[90m][39m [41m[30m ERROR [39m[49m [90mChief Chat API: [39m Failed to create direct task: Too many running tasks. Limit is 2 per user.
+
+    [90mat [39mcreateAgenTeamTaskFromChief ([36m.next\dev\server\chunks\[root-of-the-server]__fc0fc708._.js:7269:15[39m)
+    [90mat [39mprocess.processTicksAndRejections ([36mnode:internal/process/task_queues:105:5[39m)
+    [90mat [39masync execute ([36m.next\dev\server\chunks\[root-of-the-server]__fc0fc708._.js:11866:45[39m)
+    [90mat [39masync .next\dev\server\chunks\d6b68_ai_dist_index_mjs_50eaf01b._.js:9584:13
+
+  [cause]: Too many running tasks. Limit is 2 per user.
+
+      [90mat [39mcreateAgenTeamTaskFromChief ([36m.next\dev\server\chunks\[root-of-the-server]__fc0fc708._.js:7242:19[39m)
+      [90mat [39mprocess.processTicksAndRejections ([36mnode:internal/process/task_queues:105:5[39m)
+      [90mat [39masync execute ([36m.next\dev\server\chunks\[root-of-the-server]__fc0fc708._.js:11866:45[39m)
+      [90mat [39masync .next\dev\server\chunks\d6b68_ai_dist_index_mjs_50eaf01b._.js:9584:13
+
+TypeError: Invalid state: Controller is already closed
+    at Timeout.poll [as _onTimeout] (src\app\api\agen-team\stream\route.ts:169:24)
+  167 |           if (!isDone) {
+  168 |             // Send keepalive
+> 169 |             controller.enqueue(encoder.encode(": keepalive\n\n"));
+      |                        ^
+  170 |             setTimeout(poll, pollInterval);
+  171 |           } else {
+  172 |             controller.close(); {
+  code: 'ERR_INVALID_STATE'
+}
+⨯ unhandledRejection: TypeError: Invalid state: Controller is already closed
+    at Timeout.poll [as _onTimeout] (src\app\api\agen-team\stream\route.ts:169:24)
+  167 |           if (!isDone) {
+  168 |             // Send keepalive
+> 169 |             controller.enqueue(encoder.encode(": keepalive\n\n"));
+      |                        ^
+  170 |             setTimeout(poll, pollInterval);
+  171 |           } else {
+  172 |             controller.close(); {
+  code: 'ERR_INVALID_STATE'
+}
+⨯ unhandledRejection:  TypeError: Invalid state: Controller is already closed
+    at Timeout.poll [as _onTimeout] (src\app\api\agen-team\stream\route.ts:169:24)
+  167 |           if (!isDone) {
+  168 |             // Send keepalive
+> 169 |             controller.enqueue(encoder.encode(": keepalive\n\n"));
+      |                        ^
+  170 |             setTimeout(poll, pollInterval);
+  171 |           } else {
+  172 |             controller.close(); {
+  code: 'ERR_INVALID_STATE'
+}
+TypeError: Invalid state: Controller is already closed
+    at Timeout.poll [as _onTimeout] (src\app\api\agen-team\stream\route.ts:169:24)
+  167 |           if (!isDone) {
+  168 |             // Send keepalive
+> 169 |             controller.enqueue(encoder.encode(": keepalive\n\n"));
+      |                        ^
+  170 |             setTimeout(poll, pollInterval);
+  171 |           } else {
+  172 |             controller.close(); {
+  code: 'ERR_INVALID_STATE'
+}
+⨯ unhandledRejection: TypeError: Invalid state: Controller is already closed
+    at Timeout.poll [as _onTimeout] (src\app\api\agen-team\stream\route.ts:169:24)
+  167 |           if (!isDone) {
+  168 |             // Send keepalive
+> 169 |             controller.enqueue(encoder.encode(": keepalive\n\n"));
+      |                        ^
+  170 |             setTimeout(poll, pollInterval);
+  171 |           } else {
+  172 |             controller.close(); {
+  code: 'ERR_INVALID_STATE'
+}
+⨯ unhandledRejection:  TypeError: Invalid state: Controller is already closed
+    at Timeout.poll [as _onTimeout] (src\app\api\agen-team\stream\route.ts:169:24)
+  167 |           if (!isDone) {
+  168 |             // Send keepalive
+> 169 |             controller.enqueue(encoder.encode(": keepalive\n\n"));
+      |                        ^
+  170 |             setTimeout(poll, pollInterval);
+  171 |           } else {
+  172 |             controller.close(); {
+  code: 'ERR_INVALID_STATE'
+}
+⨯ ./src/lib/agen-team/graph.ts:173:3
+Parsing ecmascript source code failed
+[0m [90m 171 |[39m   }[33m;[39m
+ [90m 172 |[39m   [36mawait[39m emitIntelligenceClose(state[33m.[39memitter[33m,[39m buildStoryCtx(state)[33m,[39m dynamic)[33m;[39m
+[31m[1m>[22m[39m[90m 173 |[39m   [36mreturn[39m {}[33m;[39m
+ [90m     |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 174 |[39m }
+ [90m 175 |[39m
+ [90m 176 |[39m [90m/**[39m[0m
+
+Return statement is not allowed here
+
+Import trace:
+  App Route:
+    ./src/lib/agen-team/graph.ts
+    ./src/lib/agen-team/run-task.ts
+    ./src/lib/inngest/functions.ts
+    ./src/app/api/inngest/route.ts
+
+
+⨯ ./src/lib/agen-team/graph.ts:173:3
+Parsing ecmascript source code failed
+[0m [90m 171 |[39m   }[33m;[39m
+ [90m 172 |[39m   [36mawait[39m emitIntelligenceClose(state[33m.[39memitter[33m,[39m buildStoryCtx(state)[33m,[39m dynamic)[33m;[39m
+[31m[1m>[22m[39m[90m 173 |[39m   [36mreturn[39m {}[33m;[39m
+ [90m     |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+ [90m 174 |[39m }
+ [90m 175 |[39m
+ [90m 176 |[39m [90m/**[39m[0m
+
+Return statement is not allowed here
+
+Import trace:
+  App Route:
+    ./src/lib/agen-team/graph.ts
+    ./src/lib/agen-team/run-task.ts
+    ./src/lib/inngest/functions.ts
+    ./src/app/api/inngest/route.ts
+
+
+TypeError: Invalid state: Controller is already closed
+    at Timeout.poll [as _onTimeout] (src\app\api\agen-team\stream\route.ts:169:24)
+  167 |           if (!isDone) {
+  168 |             // Send keepalive
+> 169 |             controller.enqueue(encoder.encode(": keepalive\n\n"));
+      |                        ^
+  170 |             setTimeout(poll, pollInterval);
+  171 |           } else {
+  172 |             controller.close(); {
+  code: 'ERR_INVALID_STATE'
+}
+⨯ unhandledRejection: TypeError: Invalid state: Controller is already closed
+    at Timeout.poll [as _onTimeout] (src\app\api\agen-team\stream\route.ts:169:24)
+  167 |           if (!isDone) {
+  168 |             // Send keepalive
+> 169 |             controller.enqueue(encoder.encode(": keepalive\n\n"));
+      |                        ^
+  170 |             setTimeout(poll, pollInterval);
+  171 |           } else {
+  172 |             controller.close(); {
+  code: 'ERR_INVALID_STATE'
+}
+⨯ unhandledRejection:  TypeError: Invalid state: Controller is already closed
+    at Timeout.poll [as _onTimeout] (src\app\api\agen-team\stream\route.ts:169:24)
+  167 |           if (!isDone) {
+  168 |             // Send keepalive
+> 169 |             controller.enqueue(encoder.encode(": keepalive\n\n"));
+      |                        ^
+  170 |             setTimeout(poll, pollInterval);
+  171 |           } else {
+  172 |             controller.close(); {
+  code: 'ERR_INVALID_STATE'
+}
+Failed to emit story event: error: insert or update on table "task_outputs" violates foreign key constraint "task_outputs_task_id_fkey"
+    at async insertEvent (src\lib\agen-team\utils\progress-emitter.ts:43:3)
+    at async ProgressEmitter.emitStory (src\lib\agen-team\utils\progress-emitter.ts:101:7)
+    at async emitStoryBeat (src\lib\agen-team\story\story-orchestrator.ts:121:18)
+    at async emitBeatSequence (src\lib\agen-team\story\story-orchestrator.ts:170:5)
+    at async emitWriterDone (src\lib\agen-team\story\story-orchestrator.ts:490:3)
+    at async RunnableCallable.writerNode [as func] (src\lib\agen-team\agents\nodes.ts:329:3)
+  41 |   content: ProgressEvent | StoryEvent,
+  42 | ) {
+> 43 |   await db.insert(TaskOutputTable).values({
+     |   ^
+  44 |     taskId,
+  45 |     stageName,
+  46 |     content, {
+  length: 311,
+  severity: 'ERROR',
+  code: '23503',
+  detail: 'Key (task_id)=(81f4a24d-0f0f-4bc1-a1cf-f392ad746b42) is not present in table "agent_tasks".',
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: 'public',
+  table: 'task_outputs',
+  column: undefined,
+  dataType: undefined,
+  constraint: 'task_outputs_task_id_fkey',
+  file: 'ri_triggers.c',
+  line: '2599',
+  routine: 'ri_ReportViolation'
+}
+Failed to emit story event: error: insert or update on table "task_outputs" violates foreign key constraint "task_outputs_task_id_fkey"
+    at async insertEvent (src\lib\agen-team\utils\progress-emitter.ts:43:3)
+    at async ProgressEmitter.emitStory (src\lib\agen-team\utils\progress-emitter.ts:101:7)
+    at async emitStoryBeat (src\lib\agen-team\story\story-orchestrator.ts:121:18)
+    at async emitBeatSequence (src\lib\agen-team\story\story-orchestrator.ts:170:5)
+    at async emitSocialBefore (src\lib\agen-team\story\story-orchestrator.ts:506:3)
+    at async RunnableCallable.socialMediaNode [as func] (src\lib\agen-team\agents\nodes.ts:349:3)
+  41 |   content: ProgressEvent | StoryEvent,
+  42 | ) {
+> 43 |   await db.insert(TaskOutputTable).values({
+     |   ^
+  44 |     taskId,
+  45 |     stageName,
+  46 |     content, {
+  length: 311,
+  severity: 'ERROR',
+  code: '23503',
+  detail: 'Key (task_id)=(81f4a24d-0f0f-4bc1-a1cf-f392ad746b42) is not present in table "agent_tasks".',
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: 'public',
+  table: 'task_outputs',
+  column: undefined,
+  dataType: undefined,
+  constraint: 'task_outputs_task_id_fkey',
+  file: 'ri_triggers.c',
+  line: '2599',
+  routine: 'ri_ReportViolation'
+}
+Failed to emit story event: error: insert or update on table "task_outputs" violates foreign key constraint "task_outputs_task_id_fkey"
+    at async insertEvent (src\lib\agen-team\utils\progress-emitter.ts:43:3)
+    at async ProgressEmitter.emitStory (src\lib\agen-team\utils\progress-emitter.ts:101:7)
+    at async emitTyping (src\lib\agen-team\story\story-orchestrator.ts:256:3)
+    at async emitSocialTyping (src\lib\agen-team\story\story-orchestrator.ts:516:3)
+    at async RunnableCallable.socialMediaNode [as func] (src\lib\agen-team\agents\nodes.ts:352:3)
+  41 |   content: ProgressEvent | StoryEvent,
+  42 | ) {
+> 43 |   await db.insert(TaskOutputTable).values({
+     |   ^
+  44 |     taskId,
+  45 |     stageName,
+  46 |     content, {
+  length: 311,
+  severity: 'ERROR',
+  code: '23503',
+  detail: 'Key (task_id)=(81f4a24d-0f0f-4bc1-a1cf-f392ad746b42) is not present in table "agent_tasks".',
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: 'public',
+  table: 'task_outputs',
+  column: undefined,
+  dataType: undefined,
+  constraint: 'task_outputs_task_id_fkey',
+  file: 'ri_triggers.c',
+  line: '2599',
+  routine: 'ri_ReportViolation'
+}
+Failed to emit story event: error: insert or update on table "task_outputs" violates foreign key constraint "task_outputs_task_id_fkey"
+    at async insertEvent (src\lib\agen-team\utils\progress-emitter.ts:43:3)
+    at async ProgressEmitter.emitStory (src\lib\agen-team\utils\progress-emitter.ts:101:7)
+    at async emitStoryBeat (src\lib\agen-team\story\story-orchestrator.ts:121:18)
+    at async emitBeatSequence (src\lib\agen-team\story\story-orchestrator.ts:170:5)
+    at async emitSocialDone (src\lib\agen-team\story\story-orchestrator.ts:527:3)
+    at async RunnableCallable.socialMediaNode [as func] (src\lib\agen-team\agents\nodes.ts:356:5)
+  41 |   content: ProgressEvent | StoryEvent,
+  42 | ) {
+> 43 |   await db.insert(TaskOutputTable).values({
+     |   ^
+  44 |     taskId,
+  45 |     stageName,
+  46 |     content, {
+  length: 311,
+  severity: 'ERROR',
+  code: '23503',
+  detail: 'Key (task_id)=(81f4a24d-0f0f-4bc1-a1cf-f392ad746b42) is not present in table "agent_tasks".',
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: 'public',
+  table: 'task_outputs',
+  column: undefined,
+  dataType: undefined,
+  constraint: 'task_outputs_task_id_fkey',
+  file: 'ri_triggers.c',
+  line: '2599',
+  routine: 'ri_ReportViolation'
+}
+Failed to emit story event: error: insert or update on table "task_outputs" violates foreign key constraint "task_outputs_task_id_fkey"
+    at async insertEvent (src\lib\agen-team\utils\progress-emitter.ts:43:3)
+    at async ProgressEmitter.emitStory (src\lib\agen-team\utils\progress-emitter.ts:101:7)
+    at async emitStoryBeat (src\lib\agen-team\story\story-orchestrator.ts:121:18)
+    at async emitBeatSequence (src\lib\agen-team\story\story-orchestrator.ts:170:5)
+    at async emitMarketingClose (src\lib\agen-team\story\story-orchestrator.ts:544:3)
+    at async RunnableCallable.marketingCloseNode [as func] (src\lib\agen-team\graph.ts:209:3)
+  41 |   content: ProgressEvent | StoryEvent,
+  42 | ) {
+> 43 |   await db.insert(TaskOutputTable).values({
+     |   ^
+  44 |     taskId,
+  45 |     stageName,
+  46 |     content, {
+  length: 311,
+  severity: 'ERROR',
+  code: '23503',
+  detail: 'Key (task_id)=(81f4a24d-0f0f-4bc1-a1cf-f392ad746b42) is not present in table "agent_tasks".',
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: 'public',
+  table: 'task_outputs',
+  column: undefined,
+  dataType: undefined,
+  constraint: 'task_outputs_task_id_fkey',
+  file: 'ri_triggers.c',
+  line: '2599',
+  routine: 'ri_ReportViolation'
+}
+Failed to emit story event: error: insert or update on table "task_outputs" violates foreign key constraint "task_outputs_task_id_fkey"
+    at async insertEvent (src\lib\agen-team\utils\progress-emitter.ts:43:3)
+    at async ProgressEmitter.emitStory (src\lib\agen-team\utils\progress-emitter.ts:101:7)
+    at async emitStoryBeat (src\lib\agen-team\story\story-orchestrator.ts:121:18)
+    at async emitSceneEnd (src\lib\agen-team\story\story-orchestrator.ts:212:3)
+    at async emitMarketingClose (src\lib\agen-team\story\story-orchestrator.ts:551:3)
+    at async RunnableCallable.marketingCloseNode [as func] (src\lib\agen-team\graph.ts:209:3)
+  41 |   content: ProgressEvent | StoryEvent,
+  42 | ) {
+> 43 |   await db.insert(TaskOutputTable).values({
+     |   ^
+  44 |     taskId,
+  45 |     stageName,
+  46 |     content, {
+  length: 311,
+  severity: 'ERROR',
+  code: '23503',
+  detail: 'Key (task_id)=(81f4a24d-0f0f-4bc1-a1cf-f392ad746b42) is not present in table "agent_tasks".',
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: 'public',
+  table: 'task_outputs',
+  column: undefined,
+  dataType: undefined,
+  constraint: 'task_outputs_task_id_fkey',
+  file: 'ri_triggers.c',
+  line: '2599',
+  routine: 'ri_ReportViolation'
+}
+Failed to emit story event: error: insert or update on table "task_outputs" violates foreign key constraint "task_outputs_task_id_fkey"
+    at async insertEvent (src\lib\agen-team\utils\progress-emitter.ts:43:3)
+    at async ProgressEmitter.emitStory (src\lib\agen-team\utils\progress-emitter.ts:101:7)
+    at async emitStoryBeat (src\lib\agen-team\story\story-orchestrator.ts:121:18)
+    at async emitNarrator (src\lib\agen-team\story\story-orchestrator.ts:236:3)
+    at async emitWarRoomFinal (src\lib\agen-team\story\story-orchestrator.ts:568:3)
+    at async RunnableCallable.finalizeNode [as func] (src\lib\agen-team\graph.ts:241:3)
+  41 |   content: ProgressEvent | StoryEvent,
+  42 | ) {
+> 43 |   await db.insert(TaskOutputTable).values({
+     |   ^
+  44 |     taskId,
+  45 |     stageName,
+  46 |     content, {
+  length: 311,
+  severity: 'ERROR',
+  code: '23503',
+  detail: 'Key (task_id)=(81f4a24d-0f0f-4bc1-a1cf-f392ad746b42) is not present in table "agent_tasks".',
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: 'public',
+  table: 'task_outputs',
+  column: undefined,
+  dataType: undefined,
+  constraint: 'task_outputs_task_id_fkey',
+  file: 'ri_triggers.c',
+  line: '2599',
+  routine: 'ri_ReportViolation'
+}
+Failed to emit story event: error: insert or update on table "task_outputs" violates foreign key constraint "task_outputs_task_id_fkey"
+    at async insertEvent (src\lib\agen-team\utils\progress-emitter.ts:43:3)
+    at async ProgressEmitter.emitStory (src\lib\agen-team\utils\progress-emitter.ts:101:7)
+    at async emitStoryBeat (src\lib\agen-team\story\story-orchestrator.ts:121:18)
+    at async emitSceneStart (src\lib\agen-team\story\story-orchestrator.ts:196:3)
+    at async emitWarRoomFinal (src\lib\agen-team\story\story-orchestrator.ts:574:3)
+    at async RunnableCallable.finalizeNode [as func] (src\lib\agen-team\graph.ts:241:3)
+  41 |   content: ProgressEvent | StoryEvent,
+  42 | ) {
+> 43 |   await db.insert(TaskOutputTable).values({
+     |   ^
+  44 |     taskId,
+  45 |     stageName,
+  46 |     content, {
+  length: 311,
+  severity: 'ERROR',
+  code: '23503',
+  detail: 'Key (task_id)=(81f4a24d-0f0f-4bc1-a1cf-f392ad746b42) is not present in table "agent_tasks".',
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: 'public',
+  table: 'task_outputs',
+  column: undefined,
+  dataType: undefined,
+  constraint: 'task_outputs_task_id_fkey',
+  file: 'ri_triggers.c',
+  line: '2599',
+  routine: 'ri_ReportViolation'
+}
+Failed to emit story event: error: insert or update on table "task_outputs" violates foreign key constraint "task_outputs_task_id_fkey"
+    at async insertEvent (src\lib\agen-team\utils\progress-emitter.ts:43:3)
+    at async ProgressEmitter.emitStory (src\lib\agen-team\utils\progress-emitter.ts:101:7)
+    at async emitStoryBeat (src\lib\agen-team\story\story-orchestrator.ts:121:18)
+    at async emitBeatSequence (src\lib\agen-team\story\story-orchestrator.ts:170:5)
+    at async emitWarRoomFinal (src\lib\agen-team\story\story-orchestrator.ts:587:3)
+    at async RunnableCallable.finalizeNode [as func] (src\lib\agen-team\graph.ts:241:3)
+  41 |   content: ProgressEvent | StoryEvent,
+  42 | ) {
+> 43 |   await db.insert(TaskOutputTable).values({
+     |   ^
+  44 |     taskId,
+  45 |     stageName,
+  46 |     content, {
+  length: 311,
+  severity: 'ERROR',
+  code: '23503',
+  detail: 'Key (task_id)=(81f4a24d-0f0f-4bc1-a1cf-f392ad746b42) is not present in table "agent_tasks".',
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: 'public',
+  table: 'task_outputs',
+  column: undefined,
+  dataType: undefined,
+  constraint: 'task_outputs_task_id_fkey',
+  file: 'ri_triggers.c',
+  line: '2599',
+  routine: 'ri_ReportViolation'
+}
+Failed to emit story event: error: insert or update on table "task_outputs" violates foreign key constraint "task_outputs_task_id_fkey"
+    at async insertEvent (src\lib\agen-team\utils\progress-emitter.ts:43:3)
+    at async ProgressEmitter.emitStory (src\lib\agen-team\utils\progress-emitter.ts:101:7)
+    at async emitStoryBeat (src\lib\agen-team\story\story-orchestrator.ts:121:18)
+    at async emitBeatSequence (src\lib\agen-team\story\story-orchestrator.ts:170:5)
+    at async emitWarRoomFinal (src\lib\agen-team\story\story-orchestrator.ts:587:3)
+    at async RunnableCallable.finalizeNode [as func] (src\lib\agen-team\graph.ts:241:3)
+  41 |   content: ProgressEvent | StoryEvent,
+  42 | ) {
+> 43 |   await db.insert(TaskOutputTable).values({
+     |   ^
+  44 |     taskId,
+  45 |     stageName,
+  46 |     content, {
+  length: 311,
+  severity: 'ERROR',
+  code: '23503',
+  detail: 'Key (task_id)=(81f4a24d-0f0f-4bc1-a1cf-f392ad746b42) is not present in table "agent_tasks".',
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: 'public',
+  table: 'task_outputs',
+  column: undefined,
+  dataType: undefined,
+  constraint: 'task_outputs_task_id_fkey',
+  file: 'ri_triggers.c',
+  line: '2599',
+  routine: 'ri_ReportViolation'
+}
+Failed to emit story event: error: insert or update on table "task_outputs" violates foreign key constraint "task_outputs_task_id_fkey"
+    at async insertEvent (src\lib\agen-team\utils\progress-emitter.ts:43:3)
+    at async ProgressEmitter.emitStory (src\lib\agen-team\utils\progress-emitter.ts:101:7)
+    at async emitStoryBeat (src\lib\agen-team\story\story-orchestrator.ts:121:18)
+    at async emitWarRoomFinal (src\lib\agen-team\story\story-orchestrator.ts:590:3)
+    at async RunnableCallable.finalizeNode [as func] (src\lib\agen-team\graph.ts:241:3)
+  41 |   content: ProgressEvent | StoryEvent,
+  42 | ) {
+> 43 |   await db.insert(TaskOutputTable).values({
+     |   ^
+  44 |     taskId,
+  45 |     stageName,
+  46 |     content, {
+  length: 311,
+  severity: 'ERROR',
+  code: '23503',
+  detail: 'Key (task_id)=(81f4a24d-0f0f-4bc1-a1cf-f392ad746b42) is not present in table "agent_tasks".',
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: 'public',
+  table: 'task_outputs',
+  column: undefined,
+  dataType: undefined,
+  constraint: 'task_outputs_task_id_fkey',
+  file: 'ri_triggers.c',
+  line: '2599',
+  routine: 'ri_ReportViolation'
+}
+Failed to emit story event: error: insert or update on table "task_outputs" violates foreign key constraint "task_outputs_task_id_fkey"
+    at async insertEvent (src\lib\agen-team\utils\progress-emitter.ts:43:3)
+    at async ProgressEmitter.emitStory (src\lib\agen-team\utils\progress-emitter.ts:101:7)
+    at async emitStoryBeat (src\lib\agen-team\story\story-orchestrator.ts:121:18)
+    at async emitSceneEnd (src\lib\agen-team\story\story-orchestrator.ts:212:3)
+    at async emitWarRoomFinal (src\lib\agen-team\story\story-orchestrator.ts:603:3)
+    at async RunnableCallable.finalizeNode [as func] (src\lib\agen-team\graph.ts:241:3)
+  41 |   content: ProgressEvent | StoryEvent,
+  42 | ) {
+> 43 |   await db.insert(TaskOutputTable).values({
+     |   ^
+  44 |     taskId,
+  45 |     stageName,
+  46 |     content, {
+  length: 311,
+  severity: 'ERROR',
+  code: '23503',
+  detail: 'Key (task_id)=(81f4a24d-0f0f-4bc1-a1cf-f392ad746b42) is not present in table "agent_tasks".',
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: 'public',
+  table: 'task_outputs',
+  column: undefined,
+  dataType: undefined,
+  constraint: 'task_outputs_task_id_fkey',
+  file: 'ri_triggers.c',
+  line: '2599',
+  routine: 'ri_ReportViolation'
+}
+Failed to emit story event: error: insert or update on table "task_outputs" violates foreign key constraint "task_outputs_task_id_fkey"
+    at async insertEvent (src\lib\agen-team\utils\progress-emitter.ts:43:3)
+    at async ProgressEmitter.emitStory (src\lib\agen-team\utils\progress-emitter.ts:101:7)
+    at async emitStoryBeat (src\lib\agen-team\story\story-orchestrator.ts:121:18)
+    at async emitReceipt (src\lib\agen-team\story\story-orchestrator.ts:623:3)
+    at async RunnableCallable.finalizeNode [as func] (src\lib\agen-team\graph.ts:250:5)
+  41 |   content: ProgressEvent | StoryEvent,
+  42 | ) {
+> 43 |   await db.insert(TaskOutputTable).values({
+     |   ^
+  44 |     taskId,
+  45 |     stageName,
+  46 |     content, {
+  length: 311,
+  severity: 'ERROR',
+  code: '23503',
+  detail: 'Key (task_id)=(81f4a24d-0f0f-4bc1-a1cf-f392ad746b42) is not present in table "agent_tasks".',
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: 'public',
+  table: 'task_outputs',
+  column: undefined,
+  dataType: undefined,
+  constraint: 'task_outputs_task_id_fkey',
+  file: 'ri_triggers.c',
+  line: '2599',
+  routine: 'ri_ReportViolation'
+}
+Failed to emit done: error: insert or update on table "task_outputs" violates foreign key constraint "task_outputs_task_id_fkey"
+    at async insertEvent (src\lib\agen-team\utils\progress-emitter.ts:43:3)
+    at async ProgressEmitter.done (src\lib\agen-team\utils\progress-emitter.ts:123:7)
+    at async runAgenTeamTaskLocally (src\lib\agen-team\run-task.ts:57:5)
+  41 |   content: ProgressEvent | StoryEvent,
+  42 | ) {
+> 43 |   await db.insert(TaskOutputTable).values({
+     |   ^
+  44 |     taskId,
+  45 |     stageName,
+  46 |     content, {
+  length: 311,
+  severity: 'ERROR',
+  code: '23503',
+  detail: 'Key (task_id)=(81f4a24d-0f0f-4bc1-a1cf-f392ad746b42) is not present in table "agent_tasks".',
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: 'public',
+  table: 'task_outputs',
+  column: undefined,
+  dataType: undefined,
+  constraint: 'task_outputs_task_id_fkey',
+  file: 'ri_triggers.c',
+  line: '2599',
+  routine: 'ri_ReportViolation'
+}
