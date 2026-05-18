@@ -60,7 +60,7 @@ function fallbackPlan(brief: GrowthSprintBrief): GrowthAgencyPlan {
     (_, index) => {
       const pillar = pillars[index % pillars.length];
       const date = isoAtLocalNoon(index * 2 + 1);
-      const riskLevel = index % 7 === 6 ? "medium" : "low";
+      const riskLevel = index % 7 === 6 ? "high" : "low";
       return ContentCalendarItemSchema.parse({
         date,
         status: riskLevel === "high" ? "needs_user_approval" : "scheduled",
