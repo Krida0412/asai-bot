@@ -59,7 +59,6 @@ function fallbackPlan(brief: GrowthSprintBrief): GrowthAgencyPlan {
   const calendar: ContentCalendarItem[] = Array.from({ length: 12 }).map(
     (_, index) => {
       const pillar = pillars[index % pillars.length];
-      const week = Math.floor(index / 3) + 1;
       const date = isoAtLocalNoon(index * 2 + 1);
       const riskLevel = index % 7 === 6 ? "medium" : "low";
       return ContentCalendarItemSchema.parse({
