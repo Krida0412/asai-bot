@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.0.0 (2026-05-19)
+
+
+### Features
+
+* **models:** add mistral-medium-latest and make it the default ([de98a5c](https://github.com/Krida0412/asai-bot/commit/de98a5cd6ae50b384f7e5f49196ec8d7a86c16f6))
+
+
+### Bug Fixes
+
+* remove unused week variable ([901ac2a](https://github.com/Krida0412/asai-bot/commit/901ac2aee5f0f5189ac58a8f00f6e743fbb400ea))
+* resolve unintentional type comparison for riskLevel ([8fb3aac](https://github.com/Krida0412/asai-bot/commit/8fb3aac14603c131624ff20591bf59f012d129ef))
+
 ## [1.26.0](https://github.com/cgoinglove/better-chatbot/compare/v1.25.0...v1.26.0) (2025-11-07)
 
 
