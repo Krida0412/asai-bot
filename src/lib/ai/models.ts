@@ -30,6 +30,12 @@ const mistral = createMistral({
 });
 
 const staticModels = {
+  mistral: {
+    "mistral-medium-latest": mistral("mistral-medium-latest"),
+    "mistral-large-latest": mistral("mistral-large-latest"),
+    "mistral-small-latest": mistral("mistral-small-latest"),
+    "codestral-latest": mistral("codestral-latest"),
+  },
   openai: {
     "gpt-4.1": openai("gpt-4.1"),
     "gpt-4.1-mini": openai("gpt-4.1-mini"),
@@ -50,11 +56,6 @@ const staticModels = {
     "grok-4-1-fast": xai("grok-4-1-fast-non-reasoning"),
     "grok-4-1": xai("grok-4-1"),
     "grok-3-mini": xai("grok-3-mini"),
-  },
-  mistral: {
-    "mistral-large-latest": mistral("mistral-large-latest"),
-    "mistral-small-latest": mistral("mistral-small-latest"),
-    "codestral-latest": mistral("codestral-latest"),
   },
 };
 
@@ -96,6 +97,7 @@ registerFileSupport(staticModels.xai["grok-4-1"], XAI_FILE_MIME_TYPES);
 registerFileSupport(staticModels.xai["grok-3-mini"], XAI_FILE_MIME_TYPES);
 
 registerFileSupport(staticModels.mistral["mistral-large-latest"], DEFAULT_FILE_PART_MIME_TYPES);
+registerFileSupport(staticModels.mistral["mistral-medium-latest"], DEFAULT_FILE_PART_MIME_TYPES);
 registerFileSupport(staticModels.mistral["mistral-small-latest"], DEFAULT_FILE_PART_MIME_TYPES);
 registerFileSupport(staticModels.mistral["codestral-latest"], DEFAULT_FILE_PART_MIME_TYPES);
 
@@ -127,7 +129,7 @@ export const getFilePartSupportedMimeTypes = (model: any) => {
   return staticFilePartSupportByModel.get(model) ?? [];
 };
 
-const fallbackModel = staticModels.mistral["mistral-large-latest"];
+const fallbackModel = staticModels.mistral["mistral-medium-latest"];
 
 export const customModelProvider = {
   modelsInfo: Object.entries(allModels).map(([provider, models]) => ({
